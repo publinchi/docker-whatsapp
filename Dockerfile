@@ -15,7 +15,7 @@ RUN apt-get install -y curl php-pear wget git memcached
 
 
 #Installs PHPUnit
-RUN wget https://phar.phpunit.de/phpunit.phar
+RUN wget https://phar.phpunit.de/phpunit-5.7.phar
 RUN chmod +x phpunit.phar
 RUN mv phpunit.phar /usr/local/bin/phpunit
 
